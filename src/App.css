@@ -5,3 +5,51 @@
 .profileImage {
   width: 80px;
 }
+
+table {
+  /*border-collapse: collapse;*/
+  width: 50vw;
+  margin: 0 auto
+}
+
+th, td {
+  width: 10vw;
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid lightgray
+}
+
+th {
+  font-weight: 900
+}
+
+td {
+  font-weight: 500;
+}
+
+.Btn{
+  margin: 30px;
+  padding: 1em 1.5em;
+  border-radius: 32px;
+  border: 1px solid lightgrey;
+  transition: background-color .15s
+}
+
+.Btn:hover {
+  background-color: blue;
+  color: white
+}
+
+.removeBtn {
+  width: 70px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 32px;
+  transition: background-color .15s;
+}
+
+.removeBtn:hover {
+  background-color: red;
+  color: white
+}
+
